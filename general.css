@@ -1,8 +1,17 @@
 body
 {
-	background-color: grey;
+	background: url("img/background.png") center no-repeat fixed;
 	font-family: Arial;
 	color: white;
+}
+div
+{
+	/*currently not available*/
+	background-color: #FFFFFF;
+}
+#main-table
+{
+	margin-left: 30%;
 }
 h1
 {
