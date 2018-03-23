@@ -1,0 +1,43 @@
+body
+{
+	background-color: grey;
+	font-family: Arial;
+	color: white;
+}
+h1
+{
+	text-align: center;
+}
+p
+{
+	text-align: center;
+}
+a
+{
+	text-align: center;
+	color: white;
+}
+thead, tbody
+{
+	text-align: left;
+}
+.na
+{
+	background-color: black;
+}
+.no
+{
+	background-color: red;
+}
+.yes
+{
+	background-color: green;
+}
+.name
+{
+	background-color: blue;
+}
+#note
+{
+	text-align: left;
+}
