@@ -4,10 +4,14 @@ body
 	font-family: Arial;
 	color: white;
 }
-div
+.main
 {
 	/*currently not available*/
-	background-color: #FFFFFF;
+	background-color: rgb(0, 165, 245);
+	opacity: 0.9;
+	margin: 12px 10% 12px 10%;
+	padding: 12px 12px 12px 12px;
+	line-height: 24px;
 }
 #main-table
 {
