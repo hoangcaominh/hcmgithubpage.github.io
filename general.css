@@ -4,6 +4,13 @@ body
 	font-family: Arial;
 	color: white;
 }
+h1
+{
+	background-color: rgb(249, 104, 0);
+	border: outset;
+	padding: 6px 6px 6px 6px;
+	z-index: 1;
+}
 .main
 {
 	/*currently not available*/
@@ -33,6 +40,11 @@ a
 thead, tbody
 {
 	text-align: left;
+}
+th, td
+{
+	border: #000000 solid;
+	border-width: 1px;
 }
 .na
 {
