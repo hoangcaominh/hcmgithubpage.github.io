@@ -22,7 +22,10 @@ h1
 }
 #main-table
 {
-	margin-left: 30%;
+	/* position the table in the middle */
+	margin-left: auto;
+    margin-right: auto;
+	overflow-x: auto;
 }
 h1
 {
@@ -41,28 +44,7 @@ thead, tbody
 {
 	text-align: left;
 }
-th, td
-{
-	border: #000000 solid;
-	border-width: 1px;
-}
-.na
-{
-	background-color: black;
-}
-.no
-{
-	background-color: red;
-}
-.yes
-{
-	background-color: green;
-}
 .name
 {
 	background-color: blue;
-}
-#note
-{
-	text-align: left;
 }

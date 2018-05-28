@@ -1,0 +1,30 @@
+th, td
+{
+	width: 100px;
+	border: #000000 solid;
+	border-width: 1px;
+}
+.na
+{
+	background-color: black;
+}
+.no
+{
+	background-color: red;
+}
+.occ
+{
+	background-color: green;
+}
+.nm
+{
+	background-color: brown;
+}
+.nb
+{
+	background-color: rgb(245, 23, 218);
+}
+.nn
+{
+	background-color: purple;
+}
