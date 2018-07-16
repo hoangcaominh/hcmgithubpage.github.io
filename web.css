@@ -1,0 +1,14 @@
+table {
+	margin-left: auto;
+	margin-right: auto;
+	overflow-x: auto;
+}
+td, th {
+	text-align: center;
+}
+.title {
+	color: black;
+}
+.link {
+	
+}

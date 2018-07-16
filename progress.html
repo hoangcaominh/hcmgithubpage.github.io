@@ -1,154 +1,165 @@
 <!doctype html>
 <html>
 	<head>
-		<meta charset = "utf-8">
-		<link rel = "stylesheet" href = "general.css"/>
-		<link rel = "stylesheet" href = "progress.css"/>
+		<meta charset = 'utf-8'/>
+		<link rel = 'stylesheet' href = 'general.css'/>
+		<link rel = 'stylesheet' href = 'progress.css'/>
+		<link rel = 'icon' href = 'img/Icon2.ico'/>
 		<title>Progress</title>
 	</head>
 	
 	<body>
-		<div class = "main">
+		<div class = 'main'>
 			<h1>Progress Information</h1>
 			<br>
-			<h3 style = "text-align: center">Tags</h3>
-			<table style = "margin-left: auto; margin-right: auto">
-				<tr><td class = "nn">NMNB</td></tr>
-				<tr><td class = "nm">No Miss</td></tr>
-				<tr><td class = "nb">No Bomb</td></tr>
-				<tr><td class = "occ">1cc</td></tr>
-				<tr><td class = "no">Attempted</td></tr>
-				<tr><td class = "na">Not available</td></tr>
+			<h3 style = 'text-align: center'>Tags</h3>
+			<table style = 'margin-left: auto; margin-right: auto'>
+				<tr><td class = 'pr'>PERFECT</td></tr>
+				<tr><td class = 'nm'>No Miss</td></tr>
+				<tr><td class = 'nb'>No Bomb</td></tr>
+				<tr><td class = 'occ'>1cc</td></tr>
+				<tr><td class = 'no'>Attempted</td></tr>
+				<tr><td class = 'na'>Not available</td></tr>
 			</table>
 			<br>
-			<p>Click on the replay name to download (if available)</p>
-			<table id = "main-table">
+			<p style='text-align:center'>
+			Click on the replay name to download (if available)<br>
+			Only tiles which have notable run (from No Bomb upward) have a replay<br>
+			Replays with <span style='background-color: yellow'>yellow</span> tag have another condition achieved. Those are:<br>
+			* PCB: No Border Break (NBB)<br>
+			* IN: Full Spell (FS) (Because you cannot die to last spells)<br>
+			* UFO: No Ventora/UFOS (NV/NU)<br>
+			* TD: No Trance (NT)<br>
+			* HSiFS: No Release (NR)<br>
+			Other games runs and <span class = 'pr' style='color: white'>PERFECT</span> runs will automatically have <span style='background-color: yellow'>yellow</span> tag.<br>
+			</p>
+			<table id = 'main-table'>
 				<thead>
-					<tr style = "text-align: center">
+					<tr style = 'text-align: center'>
 						<th></th>
-						<th class = "name">Easy</th>
-						<th class = "name">Normal</th>
-						<th class = "name">Hard</th>
-						<th class = "name">Lunatic</th>
-						<th class = "name">Extra</th>
-						<th class = "name">Phantasm</th>
+						<th class = 'name'>Easy</th>
+						<th class = 'name'>Normal</th>
+						<th class = 'name'>Hard</th>
+						<th class = 'name'>Lunatic</th>
+						<th class = 'name'>Extra</th>
+						<th class = 'name'>Phantasm</th>
 					</tr>
 				</thead>
 				<tbody>
 					<!--Touhou 6-->
 					<tr>
-						<td class = "name">EoSD</td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "na"></td>
+						<td class = 'name'>EoSD</td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'na'></td>
 					</tr>
 					<!--Touhou 7-->
 					<tr>
-						<td class = "name">PCB</td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
+						<td class = 'name'>PCB</td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'nb'><a style='color:yellow' href = 'replay/th7_udEx5M.rpy'>th7_udEx5M.rpy</a></td>
+						<td class = 'occ'></td>
 					</tr>
 					<!--Touhou 8-->
 					<tr>
-						<td class = "name">IN</td>
-						<td class = "nn"><a href = "replay/th8_udPEma.rpy">th8_udPEma.rpy</a></td>
-						<td class = "nm"></td>
-						<td class = "nm"></td>
-						<td class = "nm"><a href = "replay/th8_udNM6B.rpy">th8_udNM6B.rpy</a></td>
-						<td class = "nm"><a href = "replay/th8_udEXRM.rpy">th8_udEXRM.rpy</a></td>
-						<td class = "na"></td>
+						<td class = 'name'>IN</td>
+						<td class = 'pr'><a style='color:yellow' href = 'replay/th8_udPEma.rpy'>th8_udPEma.rpy</a></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'nm'><a class = 'rpy' href = 'replay/th8_udNM6B.rpy'>th8_udNM6B.rpy</a></td>
+						<td class = 'nm'><a style='color:yellow' href = 'replay/th8_udEXRM.rpy'>th8_udEXRM.rpy</a></td>
+						<td class = 'na'></td>
 					</tr>
 					<!--Touhou 10-->
 					<tr>
-						<td class = "name">MoF</td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "na"></td>
+						<td class = 'name'>MoF</td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'na'></td>
 					</tr>
 					<!--Touhou 11-->
 					<tr>
-						<td class = "name">SA</td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "na"></td>
+						<td class = 'name'>SA</td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'na'></td>
 					</tr>
 					<!--Touhou 12-->
 					<tr>
-						<td class = "name">UFO</td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "no"></td>
-						<td class = "occ"></td>
-						<td class = "na"></td>
+						<td class = 'name'>UFO</td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'no'></td>
+						<td class = 'nb'><a style='color:white' href = 'replay/th12_18.rpy'>th12_18.rpy</a></td>
+						<td class = 'na'></td>
 					</tr>
 					<!--Touhou 12.8-->
 					<tr>
-						<td class = "name">GFW</td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "na"></td>
+						<td class = 'name'>GFW</td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'nb'><a style='color:yellow' href = 'replay/th128_22.rpy'>th128_22.rpy</a></td>
+						<td class = 'na'></td>
 					</tr>
 					<!--Touhou 13-->
 					<tr>
-						<td class = "name">TD</td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "na"></td>
+						<td class = 'name'>TD</td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'nb'><a style='color:yellow' href = 'replay/th13_12.rpy'>th13_12.rpy</a></td>
+						<td class = 'na'></td>
 					</tr>
 					<!--Touhou 14-->
 					<tr>
-						<td class = "name">DDC</td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "no"></td>
-						<td class = "occ"></td>
-						<td class = "na"></td>
+						<td class = 'name'>DDC</td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'no'></td>
+						<td class = 'occ'></td>
+						<td class = 'na'></td>
 					</tr>
 					<!--Touhou 15-->
 					<tr>
-						<td class = "name">LoLK</td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "na"></td>
+						<td class = 'name'>LoLK</td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'na'></td>
 					</tr>
 					<!--Touhou 16-->
 					<tr>
-						<td class = "name">HSiFS</td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "occ"></td>
-						<td class = "nn"><a href = "replay/th16_udxNNN">th16_udxNNN.rpy</a></td>
-						<td class = "na"></td>
+						<td class = 'name'>HSiFS</td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'occ'></td>
+						<td class = 'pr'><a style='color:yellow' href = 'replay/th16_udxNNN'>th16_udxNNN.rpy</a></td>
+						<td class = 'na'></td>
 					</tr>
 				</tbody>
 			</table>
 			<br>
-			<p><a href = "index.html">Back to Index</a></p>
+			<p><a class = 'btx' href = 'index.html'>Back to Index</a></p>
 		</div>
 	</body>
 </html>

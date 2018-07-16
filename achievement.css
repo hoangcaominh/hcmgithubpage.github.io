@@ -7,13 +7,33 @@ table, th
 	margin-right: auto;
 	overflow-x: auto;
 }
+thead
+{
+	opacity: 0.95;
+}
 td
 {
 	border: 1px solid black;
-	padding-left: 6px;
-	padding-right: 6px;
+	padding-left: 8px;
+	padding-right: 8px;
+	opacity: 0.85;
+}
+a
+{
+	color: blue;
+}
+.left
+{
+	width: 150px;
+	background-color: blue;
+}
+.right
+{
+	width: 850px;
+	background-color: red;
 }
 tr:hover
 {
-	background-color: rgb(232, 164, 50);
+	color: #00ff00;
+	font-weight: bold;
 }
