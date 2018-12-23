@@ -1,7 +1,7 @@
-#profile, #achievement, #web {
+#profile, #subprogress, #replay {
 	color: blue;	/*blue*/
 }
-#progress, #replay {
+#mainprogress, #achievement, #web {
 	color: red;	/*red*/
 }
 a {
