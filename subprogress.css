@@ -1,0 +1,50 @@
+table, th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+	margin-left: auto;
+	margin-right: auto;
+	overflow-x: auto;
+}
+thead
+{
+	opacity: 0.95;
+}
+td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+	padding-left: 6px;
+	opacity: 0.85;
+}
+a
+{
+	color: white;
+}
+a:hover
+{
+	color: #00ff00;
+}
+tr:hover
+{
+	color: #00ff00;
+	font-weight: bold;
+}
+.game
+{
+	background-color: blue;
+	width: 50px;
+}
+.cond
+{
+	background-color: magenta;
+	width: 150px;
+	color: white;
+}
+.stat
+{
+	background-color: red;
+	width: 450px;
+}
