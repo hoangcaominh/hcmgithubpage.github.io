@@ -1,0 +1,11 @@
+!No touch
+ssp_shiori_log.txt
+system_config.txt
+updates.txt
+yaya.txt
+yaya_config.txt
+
+descript.txt
+string.dic
+nameteach.txt (1/2)
+commu.dic (1/2)

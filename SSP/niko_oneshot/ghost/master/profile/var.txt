@@ -1,0 +1,9 @@
+Charset,UTF-8
+install,596254499
+homeurl_found,1
+surfacecount,28
+homeurl,https://hoangcaominh.github.io/SSP/niko_oneshot/
+update_result,OK(0)
+firstboot,596254612
+commitmemorysize,477946
+lastboot,606059651
