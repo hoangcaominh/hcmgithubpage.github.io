@@ -18,8 +18,10 @@ h1
 	/*0, 165, 245*/
 	background-color: #f2f2f2;
 	opacity: 0.85;
-	margin: 12px 10% 12px 10%;
-	padding: 12px 12px 12px 12px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	line-height: 24px;
 }
 .btx
