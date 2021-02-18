@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Cao Minh's GitHub Website</title>
+		<meta charset = 'utf-8'/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css">
+		<script src="dependencies/jquery/jquery-3.5.1.min.js"></script>
+		<script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+
+		<link rel = 'stylesheet' href = 'general.css'/>
+		<link rel = 'stylesheet' href = 'np21w.css'/>
+		<link rel = 'icon' href = 'img/Icon2.ico'/>
+	</head>
+	
+	<body>
+		<div class="container main">
+            <h1 class="text-center">Neko Project 21/W Setup Guide</h1>
+            <h3>1. Download</h3><hr>
+            <p>
+            To download the emulator go to <a href="https://sites.google.com/site/np21win/download" target="_blank">this site</a>. If you can read Japanese, good for you. If you can't, please continue to read. To get the latest version, click on the first link under the header <b>ダウンロード</b>.
+            <img src="img/np21w/download-1.png">
+            </p>
+            <p>
+            After downloading the archive, extract it to wherever you like. The archive comes with the source code too, located in /src folder, whereas the exe files are located in the /bin folder.
+            <img src="img/np21w/download-2.png">
+            </p>
+            <p>
+            If you are running on a 32-bit Windows OS, run <b>np21w.exe</b>. If it is 64-bit, run <b>np21x64w.exe</b>.
+            </p>
+            <br>
+            <h3>2. Configure</h3><hr>
+            This section refers to <a href="https://nc-roadgeek.neocities.org/mima/pc98-neko.html" target="_blank">this guide</a>.
+            <p>
+            Double click on the right executable, ignore what it's doing on the screen. Go to the <i>Emulate</i> tab, select <i>Configure</i> and change the settings as below:
+            <img src="img/np21w/configure-1.png">
+            Note that if your computer is weak you can replace the number 48 with 32. Hit OK.
+            Next, go to the <i>Device</i> tab, set the <i>Memory</i> to at least 13.6MB.
+            <img src="img/np21w/configure-2.png">
+            Then, go to the <i>Screen</i> tab, go to <i>Screen options...</i>. Under the <i>Video</i> tab, enable <b>Use skipline revisions</b> and set the ration to the maximum value (255).
+            <img src="img/np21w/configure-3.png">
+            Under the <i>Renderer</i> tab in the same window, select the <i>Type</i> to use <b>Direct3D</b>.
+            <img src="img/np21w/configure-4.png">
+            And hit OK.
+            </p>
+            <p>
+            To enter the BIOS mode, you need to hold the <b>End</b> key while selecting <i>Reset</i> under the <i>Emulate</i> tab. Press the down arrow key and go to the second option and press <b>Enter</b>.
+            <img src="img/np21w/configure-5.png">
+            </p>
+            <p>
+            Next, press the down key until you reach <b>GDCクロック</b>. Press the right arrow key and the <b>2.5MHz</b> should be highlighted (if it's not highlighted before). Go down to <b>終了</b> and hit <b>Enter</b>. Do this once again and you should exit the BIOS mode.
+            <img src="img/np21w/configure-6.png">
+            </p>
+            <br>
+            <h4>2.5 Enable Savestate</h4><hr>
+            <p>
+            To enable savestate, open the <b>.ini</b> file that corresponds to the executable you run. If it's not there, make sure you have closed the emulator first. Copy and paste this line under the first line of the file:<br>
+            <br>
+            <span style="color:rgb(241, 21, 21)"><b>STATSAVE=true</b></span><br>
+            <br>
+            It should look similar to the image below:
+            <img src="img/np21w/configure-7.png">
+            </p>
+            <br>
+            <h3>3. Run the game (.HDI)</h3>
+            <p>
+            Under the <i>Harddisk</i> tab, select any of the <i>IDE #</i> options and click <i>Open...</i>. Select the game to want to run and <b>reset</b> the emulator. Enjoy!
+            </p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+.main {
+    opacity: 0.94;
+}
+img {
+    display: block;
+    opacity: 1;
+}
+p {
+    text-align: justify;
+}
