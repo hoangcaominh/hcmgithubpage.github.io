@@ -32,6 +32,11 @@ a
 	width: 850px;
 	background-color: red;
 }
+.ms
+{
+	color: yellow;
+	font-weight: bold;
+}
 tr:hover
 {
 	color: #00ff00;
